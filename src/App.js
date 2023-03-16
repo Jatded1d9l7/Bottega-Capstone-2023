@@ -1,5 +1,5 @@
-import React, { Component } from "react";
 import "./App.css";
+import React, { Component } from "react";
 import Navigation from "./components/Navigation";
 import AppHeader from "./components/AppHeader";
 import FooterSocial from "./components/Footer";
@@ -10,6 +10,7 @@ import Blog from "./components/pages/Blog";
 import Participate from "./components/pages/Participate";
 import Auth from "./components/pages/Auth";
 import Survey from "./components/Survey";
+import Login from "./components/pages/Login";
 
 
 
@@ -28,6 +29,7 @@ export default class App extends Component {
             <Route path="/blog" element={<Blog />} />
             <Route path="/participate" element={<Participate />} />
             <Route path="/survey" element={<Survey />} /> 
+            <Route path="/login" element={<Login/>}/>
           </Routes>
           <FooterSocial />
         </div>

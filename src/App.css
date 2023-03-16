@@ -1,11 +1,14 @@
-.App {
-  background-color: #3e8e41;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
 
+.App {
+  background-image: url(./images/bike-tour.avif);
+}
 .App-header {
   Display: flex;
   justify-content: space-around;
-  background-color: #222;
+  background-color: #3a56d38a;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px #888;
   height: 250px;
   padding: 25px;
   font-size: large;
@@ -15,14 +18,13 @@
   margin-right:100px;
 }
 
-
 .Footer-footer{
   display: flex;
   justify-content: center;
   background-color:#222;
+  border-radius: 20px;
 
 }
-
 .Footer-footer div {
   display: flex;
   flex-direction: row;
@@ -42,19 +44,8 @@
   border-radius: 4px; 
   cursor: pointer; 
 }
-
 .Button-Button:hover {
   background-color: #3e8e41; 
-}
-
-.Content-container {
-  background-color: #FAF9F6;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: x-large;
-  height: 750px;
-  padding: 40px;
-  display: flex;
 }
 
 .Content-content {
@@ -62,11 +53,29 @@
   margin-right:100px;
   margin-top: 0px;
 }
+.Content-container {
+  background-color: #faf9f6a1;
+  border-radius: 20px;
+  font-family: 'Noto Serif Lao', serif;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: justify;
+  height: 850px;
+  padding: 40px;
+  display:grid;
+}
+.Content-container p {
+  margin-bottom: 0;
+}
+
+
+
 
 .Navigation-wrapper  {
-  background-color: grey;
+  background-color: rgba(152, 211, 241, 0.699);
   height: 50px;
   padding: 20px;
+  border-radius: 20px;
   color: white;
   display: flex;
   flex-direction: row;
@@ -76,24 +85,19 @@
   margin-right:100px;
   margin-top: 0px;
 }
-
-
 a {
   color: Black;
   text-decoration: none;
   font-size: 2rem;
 }
-
 a:hover {
   color: #3a56d3;
-  background-color: #a2a2a2;
+  background-color: #3bb4d9ae;
+  border-radius: 10px;
 }
-
-
-
-
 .Blog-container {
-  background-color: #FAF9F6;
+  background-color: #faf9f6a1;
+  border-radius: 20px;
   padding:40px;
 }
 
@@ -103,22 +107,17 @@ a:hover {
   margin-right: 200px;
   margin-top:100px;
 }
-
 .Survey-header {
   text-align: center;
   text-decoration: underline;
 }
-
 .Survey-form-container {
   margin-left: 100px;
   margin-top: 0px;
 }
-
 .Survey-group {
   margin-bottom:10px;
 }
-
-
 h3, input {
   margin: 0;
   padding: 0;
