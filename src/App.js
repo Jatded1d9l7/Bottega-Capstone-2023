@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import Navigation from "./components/Navigation";
+import AppHeader from "./components/AppHeader";
+import FooterSocial from "./components/Footer";
+import { Route, Routes, } from "react-router-dom";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Blog from "./components/pages/Blog";
+import Participate from "./components/pages/Participate";
+import Auth from "./components/pages/Auth";
+import Survey from "./components/Survey";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export default class App extends Component {
+  
+  render() {
+    return (
+      <div>
+        <div className="App">
+          <AppHeader />
+          <Navigation />
+          <Routes >
+            <Route path="/" element={<Home />} />
+            <Route path="/auth" element={<Auth />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/participate" element={<Participate />} />
+            <Route path="/survey" element={<Survey />} /> 
+          </Routes>
+          <FooterSocial />
+        </div>
+      </div>
+    );
+  }
 }
 
-export default App;
+
