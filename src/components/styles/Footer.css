@@ -1,0 +1,14 @@
+.Footer-footer{
+    display: flex;
+    justify-content: center;
+    background-color:#222;
+    border-radius: 20px;
+  
+  }
+  .Footer-footer div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+  

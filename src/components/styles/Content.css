@@ -1,0 +1,19 @@
+.Content-content {
+    margin-left:100px;
+    margin-right:100px;
+    margin-top: 0px;
+  }
+  .Content-container {
+    background-color: #faf9f6a1;
+    border-radius: 20px;
+    font-family: 'Noto Serif Lao', serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: justify;
+    height: 850px;
+    padding: 40px;
+    display:grid;
+  }
+  .Content-container p {
+    margin-bottom: 0;
+  }
