@@ -24,8 +24,8 @@ function Blog() {
   };
 
   return (
-    <div className="Content-content">
-    <div className="Blog-container">
+    <div className="Content-container">
+    <div className="Content-wrapper">
       <h1>My Blog</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="title">Title:</label>

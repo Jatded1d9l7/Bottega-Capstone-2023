@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="Content-content">
-      <div className="Content-container">
+    <div className="Content-container">
+      <div className="Content-wrapper">
         Hey there, friends!
         <p>
           My name's Jared Thomas, and I'm excited to have you on my website. Let

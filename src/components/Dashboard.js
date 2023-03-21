@@ -1,7 +1,8 @@
 import React from 'react';
+import PortfolioContainer from './pages/portfolio-container';
 
 export default function Dashboard() {
   return(
-    <h2 className= "wrapper">Just checking to see if the dashboard is working</h2>
-  );
+    <h1>This is where the dashboard lives</h1>
+    );
 }

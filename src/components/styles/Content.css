@@ -1,9 +1,10 @@
-.Content-content {
+.Content-container {
     margin-left:100px;
     margin-right:100px;
     margin-top: 0px;
   }
-  .Content-container {
+
+  .Content-wrapper {
     background-color: #faf9f6a1;
     border-radius: 20px;
     font-family: 'Noto Serif Lao', serif;
@@ -14,6 +15,4 @@
     padding: 40px;
     display:grid;
   }
-  .Content-container p {
-    margin-bottom: 0;
-  }
+

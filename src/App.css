@@ -5,22 +5,6 @@
 @import "./components/styles/Login.css";
 @import"./components/styles/Blog.css";
 @import"./components/styles/Content.css";
+@import"./components/styles/Header.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
 
-.App {
-  background-image: url(./images/bike-tour.avif);
-}
-.App-header {
-  Display: flex;
-  justify-content: space-around;
-  background-color: #3a56d38a;
-  border-radius: 20px;
-  box-shadow: 3px 3px 6px #888;
-  height: 250px;
-  padding: 25px;
-  font-size: large;
-  color: white;
-  text-align: center;
-  margin-left:100px;
-  margin-right:100px;
-}

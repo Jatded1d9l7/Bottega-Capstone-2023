@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Navigation from "./components/Navigation";
 import AppHeader from "./components/AppHeader";
 import FooterSocial from "./components/Footer";
+// import Content from "./components/Content"
 import { Route, Routes, } from "react-router-dom";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -13,9 +14,6 @@ import Survey from "./components/Survey";
 import Login from "./components/pages/Login";
 import Dashboard from "./components/Dashboard";
 import Preferences from "./components/Preferences";
-
-
-
 export default class App extends Component {
   
   render() {
