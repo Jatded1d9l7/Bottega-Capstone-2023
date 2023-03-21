@@ -1,16 +1,17 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <div className= "Navigation-container">
-      <div className= "Navigation-wrapper">
-        < Link to= "/">Home</Link>
-        < Link to= "/about">About</Link>
-        < Link to= "/blog">Blog</Link>
-        < Link to= "/participate">Participate</Link>
+    <div className="Navigation-container">
+      <div className="Navigation-wrapper">
+        <NavLink exact to="/" activeClassName="active">Home</NavLink>
+        <NavLink to="/about" activeClassName="active">About</NavLink>
+        <NavLink to="/blog" activeClassName="active">Blog</NavLink>
+        <NavLink to="/participate" activeClassName="active">Participate</NavLink>
       </div>
     </div>
   );
 }
 
-export default Navigation 
+export default Navigation;
+

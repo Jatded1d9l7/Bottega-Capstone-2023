@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Navigation from "./components/Navigation";
 import AppHeader from "./components/AppHeader";
 import FooterSocial from "./components/Footer";
-// import Content from "./components/Content"
 import { Route, Routes, } from "react-router-dom";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -14,6 +13,8 @@ import Survey from "./components/Survey";
 import Login from "./components/pages/Login";
 import Dashboard from "./components/Dashboard";
 import Preferences from "./components/Preferences";
+
+
 export default class App extends Component {
   
   render() {
@@ -24,14 +25,14 @@ export default class App extends Component {
           <Navigation />
           <Routes >
             <Route path="/" element={<Home />} />
-            <Route path="/auth" element={<Auth />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/participate" element={<Participate />} />
-            <Route path="/survey" element={<Survey />} /> 
-            <Route path="/login" element={<Login/>}/>
+            <Route path="/auth" element={<Auth />} />
             <Route path="/Dashboard" element={<Dashboard/>}/>
-            <Route path="/Preferences" element={<Preferences/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/preferences" element={<Preferences/>}/>
+            <Route path="/survey" element={<Survey />} /> 
           </Routes>
           <FooterSocial />
         </div>

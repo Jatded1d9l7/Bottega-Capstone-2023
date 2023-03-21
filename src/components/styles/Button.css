@@ -1,4 +1,4 @@
-.Button-Button {
+.Button-button {
     background-color: #4CAF50; 
     border: none; 
     color: white; 
@@ -10,7 +10,7 @@
     border-radius: 4px; 
     cursor: pointer; 
   }
-  .Button-Button:hover {
+  .Button-button:hover {
     background-color: #3e8e41; 
   }
   

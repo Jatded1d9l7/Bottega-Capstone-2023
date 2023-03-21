@@ -5,10 +5,11 @@
     margin-right: 100px;
     margin-bottom: 10px;
     border-radius: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
   }
   
   .Navigation-container:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     transition: transform 0.5s ease;
     box-shadow: 0px 0px 10px #888;
   }
@@ -25,42 +26,16 @@
   .Navigation-wrapper a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
-    margin-right: 20px;
-    /* transition: color 0.3s ease-in-out; */
+    font-size: 20px;
   }
   
   .Navigation-wrapper a:hover {
-    color: #ffd700;
+    color: #3a56d3;
+    transform: scale(1.1);
   }
   
   .Navigation-wrapper a.active {
     font-weight: bold;
-    border-bottom: 2px solid #ffd700;
+    border-bottom: 1px solid #3a56d3;
   }
   
-  /* .Navigation-wrapper  {
-  background-color: rgba(152, 211, 241, 0.699);
-  height: 50px;
-  padding: 20px;
-  border-radius: 20px;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-left:100px;
-  margin-right:100px;
-  margin-top: 0px;
-}
-
-a {
-  color: Black;
-  text-decoration: none;
-  font-size: 2rem;
-}
-a:hover {
-  color: #3a56d3;
-  background-color: #3bb4d9ae;
-  border-radius: 10px;
-} */
