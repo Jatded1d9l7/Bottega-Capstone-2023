@@ -14,7 +14,6 @@ import Login from "./components/pages/Login";
 import Dashboard from "./components/Dashboard";
 import Preferences from "./components/Preferences";
 
-
 export default class App extends Component {
   
   render() {
