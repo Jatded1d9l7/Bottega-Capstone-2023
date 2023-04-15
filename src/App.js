@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Navigation from "./components/Navigation";
 import AppHeader from "./components/AppHeader";
 import FooterSocial from "./components/Footer";
-import { Route, Routes, } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Blog from "./components/pages/Blog";
@@ -15,23 +15,22 @@ import Dashboard from "./components/Dashboard";
 import Preferences from "./components/Preferences";
 
 export default class App extends Component {
-  
   render() {
     return (
       <div>
         <div className="App">
           <AppHeader />
           <Navigation />
-          <Routes >
+          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/participate" element={<Participate />} />
             <Route path="/auth" element={<Auth />} />
-            <Route path="/Dashboard" element={<Dashboard/>}/>
-            <Route path="/login" element={<Login/>}/>
-            <Route path="/preferences" element={<Preferences/>}/>
-            <Route path="/survey" element={<Survey />} /> 
+            <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/preferences" element={<Preferences />} />
+            <Route path="/survey" element={<Survey />} />
           </Routes>
           <FooterSocial />
         </div>
@@ -39,5 +38,3 @@ export default class App extends Component {
     );
   }
 }
-
-
